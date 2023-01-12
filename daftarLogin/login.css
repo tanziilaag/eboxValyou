@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&family=Poppins:wght@300;400;600&display=swap');
+
+
+.bg{
+    background-image: linear-gradient(to top, #C3DDFD, #1A56DB);
+    height: 100vh;
+    width: 100%;
+    background-size: 100%;
+}
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kotak{
+    align-self: center;
+    margin-left: none;
+}
+.form-container{
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 0px #696969;
+    width: 450px;
+    height: 550px;
+}
+
+h4{
+    margin-top: 10px;
+    font-family: Poppins;
+    font-weight: bold;
+    text-align: center;
+    font-size: 28px;
+}
+input{
+    width: 387px;
+    height: 56px;
+    border-radius: 8px !important;
+}
+
+.email{
+    margin-top: 70px;
+}
+.btn{
+    display: block;
+    margin-top: 40px;
+    width: 113px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: #1E429F;
+}
+
+p{
+    font-family: Plus Jakarta Sans;
+}
+
+.daftar p{
+    text-align: center;
+    margin-top: 40px;
+    color: #696969;
+    font-size: 12px;
+}
+
+.daftar a{
+    font-weight: bold;
+}
+
+.error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    border-radius: 5px;
+    margin: -30px auto;
+    margin-bottom: -50px;
+ }
+
+@media only screen and (max-width: 600px) {
+    .form-container {
+        width: 400px;
+        height: 500px;
+    }
+    .error{
+        margin: -50px 0px;
+    }
+    .btn{
+        margin-top: 30px;
+    }
+    .daftar p{
+        margin-top: 20px;
+    }
+}
